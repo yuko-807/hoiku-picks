@@ -7,36 +7,58 @@ import Link from 'next/link'
 import Image from "next/image";
 
 export function Header(): JSX.Element{
-  return (
-    <nav className={styles.header}>
-      <Head>
-        <link
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      rel="stylesheet"
-    />
-      </Head>
-      <div className={styles.headerContents}>
-        <Link href="#">
-          <a>
-            <Image src="/img/header-logo.svg" width={200} height={50} />
-          </a>
-        </Link>
-        
+  const [showLinks, setShowLinks] = useState(false);
+  const linksContainerRef = useRef(null);
+  const linksRef = useRef(null);
 
-        <button id="button"><i className="fas fa-bars"></i></button>
+  useEffect(() => {
+    const linksHeight = linksRef.current.getBoundingClientRect().height;
+    if (showLinks) {
+      linksContainerRef.current.style.height = `${linksHeight}px`;
+    } else {
+      linksContainerRef.current.style.height = `0px`;
+    }
+  }, [showLinks]);
+  return (
+    <nav>
+      <div className="navCenter">
+        <div className="navHeader">
+          <Image src="/img/header-logo.svg" width={180} height={38} priority />
+          <button
+            className="navToggle"
+            onClick={() => setShowLinks(!showLinks)}
+          >
+            <FaBars />
+          </button>
+        </div>
+        <div className="linksContainer" ref={linksContainerRef}>
+          <ul className="links" ref={linksRef}>
+            {links.map((link) => {
+              const { id, url, text } = link;
+              return (
+                <li key={id}>
+                  <Link href={url}>
+                  <a>{text}</a>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <ul className="socialIcons">
+          {social.map((socialIcon) => {
+            const { id, url, icon } = socialIcon;
+            return (
+              <li key={id}>
+                <Link href={url}>
+                <a>{icon}</a>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </div>
-      <ul id="navbarSupportedContent">
-        <Link href="user.html">
-          <a className={styles.links}>保育士様はこちら </a>
-        </Link>
-        <a href="index.html">保育園様はこちら </a>
-        <a href="company.html">会社概要 </a>
-        <a href="faq.html">よくある質問 </a>
-        <a href="conect.html"> お問い合わせ </a>
-        <a href="team.html">利用規約 </a>
-      </ul>
     </nav>
   );
 };
-
 export default Header;
