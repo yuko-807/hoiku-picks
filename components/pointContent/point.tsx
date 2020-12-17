@@ -9,7 +9,6 @@ export function Point():JSX.Element{
         保育Picksの<span>4つのポイント</span>!
       </h1>
       <div className={styles.pointContents}>
-
   {points.map((pointy) => {
         const { id, title, image, sub, text } = pointy;
         return (

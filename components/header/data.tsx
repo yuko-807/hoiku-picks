@@ -13,22 +13,22 @@ export const links = [
   },
   {
     id: 3,
-    url: '/projects',
+    url: '/others/company',
     text: '会社概要',
   },
   {
     id: 4,
-    url: '/contact',
+    url: '/others/faq',
     text: 'よくある質問',
   },
   {
     id: 5,
-    url: '/profile',
+    url: '/others/conect',
     text: 'お問い合わせ',
   },
   {
     id: 6,
-    url: '/profile',
+    url: '/others/team',
     text: '事業者の方向け利用規約',
   },
   {

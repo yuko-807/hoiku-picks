@@ -1,0 +1,58 @@
+.howToContents {
+  padding: 5% 30px;
+  text-align: center;
+}
+.howToContents h1 {
+  letter-spacing: 3px;
+}
+.howToContent {
+  padding: 5% 0;
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.howToStep {
+  border-radius: 30px;
+  border: 3px solid #ffedd0;
+  padding: 20px 30px;
+}
+.howToStep p {
+  color: #3e3e3e;
+}
+.num {
+  font-weight: 900;
+  display: inline-block;
+  background-color: #ffc363;
+  padding: 12px 20px;
+  border-radius: 100%;
+}
+.howToStep h2 {
+  padding: 10% 0;
+}
+.howToText {
+  font-weight: 100;
+}
+
+/* レスポンシブデザイン */
+
+@media (max-width: 1020px) {
+  .howToContent {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 370px) {
+  /* 使い方のコンテンツ */
+  .howToContents {
+    padding: 5% 10px;
+  }
+  .howToContent {
+    padding: 5% 0;
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .howToStep {
+    padding: 20px 20px;
+  }
+}
