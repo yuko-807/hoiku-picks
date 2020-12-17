@@ -4,28 +4,39 @@ export const links = [
   {
     id: 1,
     url: '/',
-    text: 'home',
+    text: '事業者様はこちら',
   },
   {
     id: 2,
     url: '/about',
-    text: 'about',
+    text: 'ユーザーはこちら',
   },
   {
     id: 3,
     url: '/projects',
-    text: 'projects',
+    text: '会社概要',
   },
   {
     id: 4,
     url: '/contact',
-    text: 'contact',
+    text: 'よくある質問',
   },
   {
     id: 5,
     url: '/profile',
-    text: 'profile',
+    text: 'お問い合わせ',
   },
+  {
+    id: 6,
+    url: '/profile',
+    text: '事業者様向け利用規約',
+  },
+  {
+    id: 7,
+    url: '/profile',
+    text: 'ユーザー向け利用規約',
+  },
+  
 ];
 
 export const social = [

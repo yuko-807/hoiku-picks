@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from './header/header'
 
+
 export function Layout(): JSX.Element{
   return(
     <>
@@ -11,3 +12,4 @@ export function Layout(): JSX.Element{
     </>
   )
 }
+
