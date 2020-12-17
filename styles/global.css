@@ -231,7 +231,7 @@ Variables
   --clr-grey-8: #f2a93b;
   --clr-grey-9: #dae2ec;
   --clr-grey-10: #f1f5f8;
-  --clr-white: #fff;
+  --clr-white: rgba(255, 255, 255, 0.8);
   --clr-red-dark: hsl(0, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
@@ -291,6 +291,9 @@ Navbar
 nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 .navHeader {
   display: flex;
