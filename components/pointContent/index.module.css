@@ -57,9 +57,11 @@
   }
   .pointsTitle {
     padding: 10% 0;
+    font-size: 1.5rem;
   }
   .pointTitle {
     padding-bottom: 5%;
+    font-size: 1.5rem;
   }
   .point img {
     width: 200px;
@@ -86,6 +88,14 @@
   /* ポイントコンテンツ */
   .points {
     padding: 5% 10px;
+  }
+  .pointsTitle {
+    padding: 10% 0;
+    font-size: 1rem;
+  }
+  .pointTitle {
+    padding-bottom: 5%;
+    font-size: 1rem;
   }
   .pointContents {
     padding: 5% 0px;
