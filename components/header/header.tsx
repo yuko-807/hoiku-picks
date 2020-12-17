@@ -18,7 +18,7 @@ export function Header(): JSX.Element{
       <div className={styles.headerContents}>
         <Link href="#">
           <a>
-            <Image src="/public/header-logo.svg" loading="eager" width={200} height={50} />
+            <Image src="/img/header-logo.svg" width={200} height={50} />
           </a>
         </Link>
         
@@ -27,7 +27,7 @@ export function Header(): JSX.Element{
       </div>
       <ul id="navbarSupportedContent">
         <Link href="user.html">
-          <a>保育士様はこちら </a>
+          <a className={styles.links}>保育士様はこちら </a>
         </Link>
         <a href="index.html">保育園様はこちら </a>
         <a href="company.html">会社概要 </a>
