@@ -1,0 +1,158 @@
+.taskContent {
+  text-align: center;
+  padding: 5% 30px;
+  background-color: #f2a93b;
+}
+.taskTitle {
+  padding-bottom: 10%;
+}
+.taskImages {
+  padding: 5% 0;
+  border-bottom: 3px solid #fff;
+  border-top: 3px solid #fff;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.taskImage {
+  position: relative;
+  color: #f2a93b;
+  transition: 0.3s;
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.taskImage h1 {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+.taskImage:hover {
+  color: #3e3e3e;
+  background-color: #f2a93b;
+}
+.taskFooter {
+  padding-top: 10%;
+}
+.taskFooter span {
+  padding: 0 10px;
+  font-size: 2.5rem;
+  border-bottom: 5px solid #fff;
+}
+.arrowIcon {
+  padding-top: 10%;
+  width: 50px;
+}
+
+/* レスポンシブデザイン */
+/* レスポンシブデザイン */
+
+@media (max-width: 1340px) {
+  .taskImages {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 690px) {
+  /* タスクコンテンツ */
+  .taskTitle {
+    font-size: 1.25rem;
+  }
+  .taskFooter span {
+    font-size: 1.25rem;
+  }
+  .taskImage {
+    position: relative;
+    color: #f2a93b;
+    transition: 0.3s;
+    background-color: #fff;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+  .taskImage h1 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+  }
+  .taskImages {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+  .taskFooter span {
+    font-size: 2rem;
+  }
+  .taskFooter {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  /* タスクコンテンツのレスポンシブデザイン */
+  .taskImages {
+    padding: 30px 0;
+  }
+  .taskImage {
+    position: relative;
+    color: #f2a93b;
+    transition: 0.3s;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+  .taskImage h1 {
+    font-size: 0.75rem;
+    position: absolute;
+    top: 55px;
+    left: 25px;
+  }
+  .taskImages {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+  .contentTitle {
+    padding-top: 10%;
+    font-size: 1.25rem;
+  }
+  .taskFooter span {
+    font-size: 1.5rem;
+  }
+  .taskFooter {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 370px) {
+  /* タスクコンテンツ */
+  .taskContent {
+    padding: 5% 0px;
+  }
+  .taskImage {
+    position: relative;
+    color: #f2a93b;
+    transition: 0.3s;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    background-color: #fff;
+    height: 120px;
+    width: 120px;
+  }
+  .taskImage h1 {
+    font-size: 0.7rem;
+    position: absolute;
+    top: 43px;
+    left: 15px;
+  }
+
+  .taskFooter {
+    font-size: 0.85rem;
+  }
+}

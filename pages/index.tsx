@@ -1,8 +1,6 @@
-import Head from "next/head";
-import styles from "../styles/global.module.scss";
 import { Layout } from '../components/layout';
 import Main from '../components/mainContent/main'
-import Link from 'next/link'
+import Task from '../components/taskContent/task'
 
 
 export default function Home(): JSX.Element {
@@ -10,6 +8,7 @@ export default function Home(): JSX.Element {
     <>
       <Layout/>
       <Main/>
+      <Task/>
     </>
   );
 }
