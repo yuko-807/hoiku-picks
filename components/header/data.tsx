@@ -4,12 +4,12 @@ export const links = [
   {
     id: 1,
     url: '/',
-    text: '事業者様はこちら',
+    text: '事業者の方はこちら',
   },
   {
     id: 2,
     url: '/others/user',
-    text: 'ユーザーはこちら',
+    text: 'ユーザーの方はこちら',
   },
   {
     id: 3,
@@ -29,12 +29,12 @@ export const links = [
   {
     id: 6,
     url: '/profile',
-    text: '事業者様向け利用規約',
+    text: '事業者の方向け利用規約',
   },
   {
     id: 7,
     url: '/profile',
-    text: 'ユーザー向け利用規約',
+    text: 'ユーザーの方向け利用規約',
   },
   
 ];

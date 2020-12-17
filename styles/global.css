@@ -320,9 +320,8 @@ nav {
   color: var(--clr-grey-3);
   font-size: 1rem;
   text-transform: capitalize;
-  letter-spacing: var(--spacing);
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.85rem;
   transition: var(--transition);
 }
 .links a:hover {
@@ -381,5 +380,10 @@ nav {
   }
   .socialIcons a:hover {
     color: var(--clr-primary-7);
+  }
+}
+@media (max-width: 690px) {
+  .navHeader {
+    padding: 0.5rem;
   }
 }

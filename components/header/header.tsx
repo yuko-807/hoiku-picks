@@ -23,7 +23,9 @@ export function Header(): JSX.Element{
     <nav>
       <div className="navCenter">
         <div className="navHeader">
-          <Image src="/img/header-logo.svg" width={180} height={38} priority />
+          <Link href="/">
+            <a><Image src="/img/header-logo.svg" width={180} height={45} priority /></a>
+          </Link>
           <button
             className="navToggle"
             onClick={() => setShowLinks(!showLinks)}
