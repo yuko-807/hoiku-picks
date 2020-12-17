@@ -1,6 +1,7 @@
 import { Layout } from '../components/layout';
 import Main from '../components/mainContent/main'
 import Task from '../components/taskContent/task'
+import Point from '../components/pointContent/point'
 
 
 export default function Home(): JSX.Element {
@@ -9,6 +10,7 @@ export default function Home(): JSX.Element {
       <Layout/>
       <Main/>
       <Task/>
+      <Point/>
     </>
   );
 }
