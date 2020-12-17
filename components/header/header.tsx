@@ -45,18 +45,6 @@ export function Header(): JSX.Element{
             })}
           </ul>
         </div>
-        <ul className="socialIcons">
-          {social.map((socialIcon) => {
-            const { id, url, icon } = socialIcon;
-            return (
-              <li key={id}>
-                <Link href={url}>
-                <a>{icon}</a>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
       </div>
     </nav>
   );
