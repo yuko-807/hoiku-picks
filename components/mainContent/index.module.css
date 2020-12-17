@@ -16,6 +16,7 @@
 .mainText p {
   font-size: 1.25rem;
   font-weight: 700;
+  color: #3e3e3e;
 }
 .mainLinks {
   display: flex;
@@ -36,4 +37,48 @@
   border: 2px solid #f2a93b;
   color: #f2a93b;
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* メディアクエリ */
+
+@media (min-width: 1021px) {
+  .mainContent {
+    padding-left: 20%;
+  }
+}
+
+@media (max-width: 690px) {
+  /* メインコンテンツ */
+  .mainText h1 {
+    font-size: 1.15rem;
+  }
+  .mainText p {
+    font-size: 0.85rem;
+  }
+  .mainLinks a {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 370px) {
+  /* メインコンテンツ */
+  .mainContent {
+    padding: 10% 10px;
+  }
+  .mainText h1 {
+    font-size: 1rem;
+  }
+  .mainText p {
+    font-size: 0.8rem;
+  }
+  .mainLinks {
+    display: flex;
+  }
+  .mainLinks a {
+    background-color: #f2a93b;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 5px 10px;
+    margin: 5% 10px 0;
+  }
 }
