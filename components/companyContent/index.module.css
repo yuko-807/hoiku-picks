@@ -1,0 +1,72 @@
+.companyContents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 30px;
+  background-color: #ffedd0;
+}
+.companyTitle {
+  text-align: center;
+}
+.companyTitle h2 {
+  font-size: 1.5rem;
+  border-bottom: 3px solid #f2a93b;
+}
+.companyTitle h1 {
+  font-size: 1.5rem;
+}
+.companyContent {
+  padding-top: 5%;
+}
+.card {
+  display: flex;
+  padding-top: 10%;
+  border-bottom: 3px solid gray;
+}
+.card label {
+  font-size: 1rem;
+  padding: 10px 30px;
+  font-weight: 800;
+}
+.CEO {
+  margin-right: 1rem;
+}
+.card p {
+  color: #3e3e3e;
+  font-size: 1rem;
+  padding: 10px 30px;
+}
+
+@media (max-width: 900px) {
+  .companyTitle h2 {
+    font-size: 1.5rem;
+  }
+  .companyTitle h1 {
+    font-size: 1.5rem;
+  }
+  .card {
+    flex-direction: column;
+    padding-top: 20%;
+  }
+  .card label {
+    font-size: 1.25rem;
+    padding: 0px 30px;
+  }
+  .CEO {
+    margin-right: 0rem;
+  }
+  .card p {
+    font-size: 1.25rem;
+    padding: 0 30px;
+  }
+}
+@media (max-width: 500px) {
+  .card label {
+    font-size: 1rem;
+    padding: 0px 10px;
+  }
+  .card p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
