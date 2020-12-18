@@ -1,0 +1,102 @@
+.bannerTitle h1 {
+  text-align: center;
+  padding: 5% 0px;
+  letter-spacing: 3px;
+  color: #f2a93b;
+  font-weight: 900;
+}
+.bannerContent {
+  border: 3px solid #f2a93b;
+  margin: 10%;
+  border-radius: 30px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bannerApp {
+  padding-top: 20%;
+}
+.serviceContentText {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.serviceLogo {
+  max-width: 300px;
+}
+.serviceTitle {
+  font-size: 2rem;
+  padding-top: 5%;
+  color: #f2a93b;
+}
+.appLogo {
+  width: 150px;
+  height: 50px;
+  margin-top: 5%;
+  padding-left: 5%;
+}
+.serviceContentImage img {
+  max-width: 300px;
+}
+
+.appContents {
+  display: flex;
+}
+/* レスポンシブデザイン */
+
+@media (max-width: 870px) {
+  .bannerApp {
+    padding-top: 5%;
+  }
+  .serviceTitle {
+    font-size: 2rem;
+    padding-top: 0%;
+    color: #f2a93b;
+  }
+}
+@media (max-width: 800px) {
+  .serviceContentImage img {
+    max-width: 200px;
+  }
+}
+@media (max-width: 750px) {
+  /* バナーコンテンツ */
+  .bannerTitle h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  .bannerContent {
+    border: 3px solid #f2a93b;
+    margin: 10%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bannerApp {
+    padding-top: 0%;
+  }
+  .serviceContentText {
+    display: grid;
+    justify-items: center;
+    gap: 26px;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
+  .serviceTitle {
+    font-size: 2rem;
+    padding-top: 5%;
+    color: #f2a93b;
+  }
+
+  .appLogo {
+    width: 100px;
+    height: 30px;
+  }
+
+  .serviceLogo {
+    padding-top: 5%;
+    max-width: 200px;
+  }
+}
