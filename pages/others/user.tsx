@@ -3,6 +3,7 @@ import { Main } from '../../components/userMainContent/main'
 import { Service } from '../../components/userServiceContent/service'
 import { Point } from '../../components/userPointContent/point'
 import { Work } from '../../components/userWorkContent/work'
+import { How } from '../../components/userHowContent/how'
 
 export default function User():JSX.Element{
   return(
@@ -12,6 +13,7 @@ export default function User():JSX.Element{
       <Service/>
       <Point/>
       <Work/>
+      <How/>
     </>
   );
 };

@@ -1,0 +1,86 @@
+/* 保育Picksでの働き方 */
+.howToWorkTitle h1 {
+  text-align: center;
+  padding: 5% 0px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-weight: 900;
+  background-color: #f2a93b;
+}
+
+.howToWorkTitleSub {
+  background-color: #ffedd0;
+  text-align: center;
+}
+.howToWorkTitleSub h2 {
+  padding-top: 5%;
+  font-size: 1.85rem;
+  color: #f2a93b;
+  letter-spacing: 3px;
+}
+
+.howToWorkTitleSub h3 {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 5%;
+  border-radius: 40px;
+  border: 3px solid #f2a93b;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: #fff;
+  background-color: #f2a93b;
+}
+
+.howToWorkImages {
+  padding: 5% 30px;
+  display: grid;
+  justify-items: center;
+  gap: 26px;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  background-color: #ffedd0;
+}
+.howToWorkImage img {
+  width: 100%;
+  height: 300px;
+}
+
+/* レスポンシブデザイン */
+
+@media (max-width: 870px) {
+  .howToWorkImages {
+    padding: 10% 30px;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
+}
+@media (max-width: 750px) {
+  .howToWorkTitle h1 {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+  }
+
+  .howToWorkTitle-sub h2 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .howToWorkTitle-sub h3 {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+  }
+
+  .howToWorkImage img {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .howToWorkTitleSub h2 {
+    font-size: 1.25rem;
+  }
+
+  .howToWorkTitleSub h3 {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+  }
+}
