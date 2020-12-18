@@ -12,10 +12,10 @@ export function mainContent():JSX.Element{
           <p>保育士採用マッチングアプリ</p>
         </div>
         <div className={styles.mainLinks}>
-          <Link href="#">
+          <Link href="/others/sorry">
             <a>無料申し込み</a>
           </Link>
-          <Link href="conect.html">
+          <Link href="/others/conect">
             <a >資料請求</a>
           </Link>
         </div>
