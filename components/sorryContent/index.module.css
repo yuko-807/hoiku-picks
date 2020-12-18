@@ -1,0 +1,19 @@
+.sorryContent {
+  text-align: center;
+  padding: 0 5%;
+}
+.sorryContent h1 {
+  padding: 10% 0;
+  color: #f2a93b;
+}
+.sorryContent h2 {
+  padding: 5% 0;
+}
+@media (max-width: 700px) {
+  .sorryContent h1 {
+    font-size: 1.5rem;
+  }
+  .sorryContent h2 {
+    font-size: 1.25rem;
+  }
+}

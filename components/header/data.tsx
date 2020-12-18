@@ -29,14 +29,8 @@ export const links = [
   {
     id: 6,
     url: '/others/team',
-    text: '事業者の方向け利用規約',
+    text: '利用規約',
   },
-  {
-    id: 7,
-    url: '/profile',
-    text: 'ユーザーの方向け利用規約',
-  },
-  
 ];
 
 export const social = [

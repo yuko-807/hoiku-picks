@@ -11,7 +11,7 @@ export function Main(): JSX.Element{
           </h1>
         </div>
         <div className={styles.appContents}>
-          <Link href="#">
+          <Link href="/others/sorry">
             <a>
               <img
               className={styles.appLogo}
@@ -20,7 +20,7 @@ export function Main(): JSX.Element{
               />
               </a>
           </Link>
-          <Link href="#">
+          <Link href="/others/sorry">
             <a>
               <img
               className={styles.appLogo}
