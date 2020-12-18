@@ -1,8 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { links, social } from './data';
-import styles from './index.module.css';
-import Head from 'next/head'
 import Link from 'next/link'
 import Image from "next/image";
 

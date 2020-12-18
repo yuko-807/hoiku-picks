@@ -1,0 +1,137 @@
+.banner {
+  padding: 5% 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.bannerTitle {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.bannerContent {
+  max-width: 1000px;
+  padding: 5%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.bannerContent h1 {
+  margin-top: 30px;
+}
+.bannerContents {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  border: 3px solid #ffc363;
+  border-radius: 20px;
+}
+
+.bannerLogo {
+  width: 300px;
+}
+
+.bannerLinks {
+  display: flex;
+}
+.bannerLinks a {
+  background-color: #f2a93b;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+  border: 2px solid #fff;
+}
+.bannerLinks a:hover {
+  border: 2px solid #f2a93b;
+  color: #f2a93b;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.rightLink {
+  margin-left: 30px;
+}
+.screanShot {
+  width: 300px;
+  padding: 0 30px;
+}
+.screanShotResponsive {
+  display: none;
+}
+
+/* レスポンシブデザイン */
+
+@media (max-width: 1020px) {
+  /* バナーコンテンツ */
+  .bannerContent h1 {
+    font-size: 1.25rem;
+  }
+  .screanShot {
+    width: 200px;
+  }
+  .bannerLinks a {
+    font-size: 0.75rem;
+  }
+  .rightLink {
+    margin-left: 10px;
+  }
+  .bannerLogo {
+    width: 200px;
+  }
+}
+
+@media (max-width: 750px) {
+  .bannerContent {
+    max-width: 1000px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bannerContents {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ffc363;
+    border-radius: 20px;
+  }
+  .bannerLogo {
+    display: inline-block;
+  }
+  .bannerContent h1 {
+    display: inline-block;
+  }
+  .bannerLinks {
+    display: flex;
+    justify-content: space-around;
+  }
+  .rightLink {
+    margin-left: 0;
+  }
+  .screanShot {
+    display: none;
+  }
+  .screanShotResponsive {
+    display: inline-block;
+    width: clamp(100px, 200px, 300px);
+  }
+}
+
+@media (max-width: 690px) {
+  /* バナーコンテンツ */
+  .bannerTitle h1 {
+    font-size: 1.25rem;
+  }
+  .bannerLinks a {
+    font-size: 0.65rem;
+  }
+  .bannerContent h1 {
+    font-size: 1.25rem;
+  }
+  .rightLink {
+    margin-left: 5px;
+  }
+}

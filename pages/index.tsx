@@ -6,6 +6,7 @@ import How from '../components/howToContent/how'
 import Fee from '../components/feeContent/fee'
 import Job from '../components/jobContent/job'
 import Staff from '../components/staffContent/staff'
+import Banner from '../components/bannerContent/banner'
 
 export default function Home(): JSX.Element {
   return (
@@ -18,6 +19,7 @@ export default function Home(): JSX.Element {
       <Fee/>
       <Job/>
       <Staff/>
+      <Banner/>
     </>
   );
 }
