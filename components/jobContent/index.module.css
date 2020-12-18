@@ -71,6 +71,28 @@
   width: 50px;
 }
 
+.jobContents {
+  padding: 5% 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.jobContents h1 {
+  padding-bottom: 5%;
+}
+.hoikuJob {
+  width: 100%;
+  max-width: 1000px;
+}
+.jobText span {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.picksFee {
+  border-bottom: 3px solid #f2a93b;
+}
+
 /* レスポンシブデザイン */
 
 @media (min-width: 1021px) {
@@ -112,6 +134,16 @@
   }
   .feeForExampleText p {
     font-size: 0.85rem;
+  }
+
+  .jobContents {
+    padding: 5% 10px;
+  }
+  .jobContents h1 {
+    font-size: 1rem;
+  }
+  .jobText span {
+    font-size: 1rem;
   }
 
   .arrowIcon {
