@@ -18,7 +18,7 @@ export function Banner(): JSX.Element{
           <h2 className={styles.serviceTitle}>その日だけでも<br />長期でも働ける</h2>
           <div className={styles.bannerApp}>
             {/* styles.appContents  */}
-            <Link href="#">
+            <Link href="/others/sorry">
               <a>
                 <img
                 className={styles.appLogo}
@@ -27,7 +27,7 @@ export function Banner(): JSX.Element{
                 />
                 </a>
             </Link>
-            <Link href="#">
+            <Link href="/others/sorry">
               <a>
                 <img
                 className={styles.appLogo}
