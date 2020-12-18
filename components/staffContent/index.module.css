@@ -1,0 +1,87 @@
+/* スタッフ紹介 */
+.staffContents {
+  text-align: center;
+}
+.staffContent {
+  text-align: center;
+  background-color: #f2a93b;
+  padding: 5% 0;
+  letter-spacing: 2px;
+}
+.staffBackground {
+  background-color: #ffedd0;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #ffffff,
+    #ffffff 7.5px,
+    transparent 0,
+    transparent 15px
+  );
+}
+.staffImages {
+  background-color: #fff;
+  border: 3px solid #ffedd0;
+  border-radius: 20px;
+  padding: 5% 30px;
+  margin: 5% 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.staffImages h1 {
+  padding-bottom: 5%;
+  letter-spacing: 3px;
+}
+.staffImages p {
+  padding-top: 10%;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: #3e3e3e;
+}
+.staffImg {
+  width: 100%;
+  max-width: 300px;
+}
+.staffImagesContent {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  padding: 5% 0px;
+  text-align: center;
+}
+.arrowIcon {
+  padding-top: 10%;
+  width: 50px;
+}
+
+/* レスポンシブデザイン */
+
+@media (max-width: 1020px) {
+  .staffImages h1 {
+    font-size: 1.5rem;
+  }
+
+  .staffImagesContent {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  /* 実際のユーザーのコンテンツ */
+  .contentTitle {
+    font-size: 1.25rem;
+  }
+  .staffImages {
+    margin: 5% 10px;
+  }
+  .staffImages h1 {
+    font-size: 1.25rem;
+  }
+  .staffImages p {
+    font-size: 0.85rem;
+  }
+  .arrowIcon {
+    padding: 5% 0;
+    width: 30px;
+  }
+}
