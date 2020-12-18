@@ -1,0 +1,117 @@
+.feeTitle {
+  text-align: center;
+  background-color: #f2a93b;
+  padding: 5% 0;
+}
+.feeTitle h1 {
+  letter-spacing: 2px;
+}
+.feeContents {
+  padding: 5%;
+}
+.hoikuFee {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hoikuFee h5 {
+  font-size: 1.25rem;
+  border-bottom: 3px solid #f2a93b;
+  letter-spacing: 3px;
+}
+.hoikuFee h4 {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+.feeContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid gray;
+  width: 80vw;
+  padding-top: 5%;
+}
+.feeContent h1 {
+  font-size: 2rem;
+  padding-left: 10px;
+}
+.feeContentRight {
+  font-size: 2rem;
+  font-weight: 800;
+  padding-right: 10px;
+}
+.feeContentRight span {
+  color: #f2a93b;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-right: 10px;
+}
+
+.feeForExample {
+  margin: 5% 0;
+  padding: 5% 30px;
+  background-color: #ffedd0;
+  text-align: center;
+  border-radius: 20px;
+}
+.feeForExampleText h1 {
+  color: #f2a93b;
+  letter-spacing: 3px;
+}
+.feeForExampleText p {
+  color: #3e3e3e;
+  letter-spacing: 2px;
+  padding: 5% 0;
+}
+
+.arrowIcon {
+  padding-top: 10%;
+  width: 50px;
+}
+
+/* レスポンシブデザイン */
+
+@media (min-width: 1021px) {
+  .feeContent {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 500px) {
+  /* 雇用料金のレスポンシブデザイン */
+
+  .feeContents {
+    padding: 5% 10px;
+  }
+  .hoikuFee {
+    padding: 0 10px;
+  }
+  .hoikuFee h5 {
+    font-size: 1rem;
+  }
+  .hoikuFee h4 {
+    font-size: 1.25rem;
+  }
+  .feeContent h1 {
+    font-size: 1rem;
+  }
+  .feeContentRight {
+    font-size: 1rem;
+  }
+  .feeContentRight span {
+    font-size: 1.5rem;
+  }
+  .feeForExampleText h1 {
+    font-size: 1rem;
+  }
+  .feeForExampleText p {
+    font-size: 0.85rem;
+  }
+
+  .arrowIcon {
+    padding: 10% 0;
+    width: 50px;
+  }
+}

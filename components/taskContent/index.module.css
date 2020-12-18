@@ -129,6 +129,10 @@
   .taskFooter {
     font-size: 1rem;
   }
+  .arrowIcon {
+    padding: 10% 0;
+    width: 50px;
+  }
 }
 
 @media (max-width: 370px) {

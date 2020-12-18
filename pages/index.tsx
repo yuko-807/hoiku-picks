@@ -3,7 +3,7 @@ import Main from '../components/mainContent/main'
 import Task from '../components/taskContent/task'
 import Point from '../components/pointContent/point'
 import How from '../components/howToContent/how'
-
+import Fee from '../components/feeContent/fee'
 
 export default function Home(): JSX.Element {
   return (
@@ -13,6 +13,7 @@ export default function Home(): JSX.Element {
       <Task/>
       <Point/>
       <How/>
+      <Fee/>
     </>
   );
 }
