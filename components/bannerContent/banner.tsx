@@ -22,7 +22,7 @@ export function Banner(): JSX.Element{
             alt="SS"
           />
           <div className={styles.bannerLinks}>
-            <Link href="/others/conect">
+            <Link href="/others/sorry">
               <a>無料申し込み</a>
             </Link>
             <Link href="/others/conect">
