@@ -1,0 +1,52 @@
+.mainContents {
+  background-image: url("/img/hoiku-user-background.svg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.mainContent {
+  padding: 5% 30px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.mainLogo {
+  width: 300px;
+}
+.appContents {
+  display: flex;
+}
+.mainContentText {
+  padding: 5% 0;
+  letter-spacing: 3px;
+}
+.appLogo {
+  width: 150px;
+  height: 50px;
+  margin-top: 5%;
+  padding-left: 5%;
+}
+
+/* レスポンシブデザイン */
+@media (min-width: 1021px) {
+  .mainContent {
+    padding-left: 20%;
+  }
+}
+
+@media (max-width: 750px) {
+  /* メインコンテンツのレスポンシブデザイン */
+  .mainContentText h1 {
+    font-size: 1rem;
+  }
+  .mainContentText {
+    padding: 10% 0;
+    letter-spacing: 0px;
+  }
+  .appLogo {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10%;
+  }
+}
