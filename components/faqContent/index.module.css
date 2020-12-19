@@ -33,7 +33,13 @@
 .answer p {
   padding-top: 5%;
   color: #3e3e3e;
+  font-weight: 900;
+  letter-spacing: 1px;
+  /* transition: 0.5s; */
 }
+/* .answer p:hover {
+  transform: rotate(10deg);
+} */
 .arrowIcon {
   padding-top: 5%;
   width: 50px;

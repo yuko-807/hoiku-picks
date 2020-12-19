@@ -97,6 +97,7 @@ body {
   font-variant-numeric: tabular-nums;
   /* safari hover対策 */
   -webkit-font-smoothing: antialiased;
+  background-color: #fff;
 }
 
 article,
@@ -266,7 +267,6 @@ a {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
 }
 /*  global classes */
 
