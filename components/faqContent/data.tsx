@@ -20,3 +20,4 @@ export const faqs = [
     answer: '保育士資格を取得されている方が対象となります。その他条件は各保育園とご相談ください。',
   },
 ];
+export default faqs;
