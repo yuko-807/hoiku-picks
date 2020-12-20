@@ -308,6 +308,7 @@ nav {
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
+  margin-right: 5%;
 }
 .navToggle:hover {
   color: var(--clr-primary-1);
