@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="ja">
         <Head>
-          <link rel="apple-touch-icon" sizes="180x180" href={`${faviconPath}/favicon128.png`} />
+          <link rel="apple-touch-icon" sizes="180x180" href={`${faviconPath}/hoiku-icon180.png`} />
           <link rel="icon" sizes="32x32" href={`${faviconPath}/favicon32.png`} />
           <link rel="icon" sizes="16x16" href={`${faviconPath}/favicon.ico`} />
           <link rel="manifest" href={`${faviconPath}/site.webmanifest`} />
