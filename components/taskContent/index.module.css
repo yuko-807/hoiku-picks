@@ -15,6 +15,11 @@
   justify-items: center;
   gap: 26px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  transition: 0.5s;
+}
+.taskImages:hover {
+  border-top: 50px solid #fff;
+  border-bottom: 50px solid #fff;
 }
 .taskImage {
   position: relative;
