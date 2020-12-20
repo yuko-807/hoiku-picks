@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="ja">
         <Head>
-          <meta name="保育Picks" content="保育Picksは「その日」「その時間」の保育士不足を無くす。1日単位の採用から繋がる保育士採用マッチングアプリです。最短1時間から働けます。ご希望であればその保育園で長期雇用も可能です！"></meta>
+          <meta name="description" content="保育Picksは「その日」「その時間」の保育士不足を無くす。1日単位の採用から繋がる保育士採用マッチングアプリです。最短1時間から働けます。ご希望であればその保育園で長期雇用も可能です！"></meta>
           <link rel="apple-touch-icon" sizes="180x180" href={`${faviconPath}/hoiku-icon180.png`} />
           <link rel="icon" sizes="32x32" href={`${faviconPath}/favicon32.png`} />
           <link rel="icon" sizes="16x16" href={`${faviconPath}/favicon.ico`} />
