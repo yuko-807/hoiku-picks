@@ -3,6 +3,7 @@
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  padding-bottom: 5%;
 }
 
 .mainContent {
@@ -38,14 +39,14 @@
 @media (max-width: 750px) {
   /* メインコンテンツのレスポンシブデザイン */
   .mainContentText h1 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .mainContentText {
     padding: 10% 0;
     letter-spacing: 0px;
   }
   .appLogo {
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
   }
 }

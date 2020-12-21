@@ -7,6 +7,7 @@ import Fee from '../components/feeContent/fee'
 import Job from '../components/jobContent/job'
 import Staff from '../components/staffContent/staff'
 import Banner from '../components/bannerContent/banner'
+import Footer from '../components/footerContent/footer'
 
 export default function Home(): JSX.Element {
   return (
@@ -20,6 +21,7 @@ export default function Home(): JSX.Element {
       <Job/>
       <Staff/>
       <Banner/>
+      <Footer/>
     </>
   );
 }

@@ -5,6 +5,7 @@ import { Point } from '../../components/userPointContent/point'
 import { Work } from '../../components/userWorkContent/work'
 import { How } from '../../components/userHowContent/how'
 import { Banner } from '../../components/userBannerContent/banner'
+import Footer from '../../components/footerContent/footer'
 
 export default function User():JSX.Element{
   return(
@@ -16,6 +17,7 @@ export default function User():JSX.Element{
       <Work/>
       <How/>
       <Banner/>
+      <Footer/>
     </>
   );
 };
