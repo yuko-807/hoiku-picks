@@ -1,0 +1,30 @@
+.footer {
+  padding: 10% 30px;
+  background-color: #f2a93b;
+  text-align: center;
+}
+.footer a {
+  color: #ffedd0;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer li {
+  margin: 10px 0;
+}
+.footerContent {
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  padding: 10% 0;
+}
+.footerContent h1 {
+  font-size: 2.5rem;
+}
+
+.footerContent img {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5%;
+}
