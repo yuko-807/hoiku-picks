@@ -1,5 +1,6 @@
 import type { DocumentContext, DocumentInitialProps } from "next/document";
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import { NextSeo } from 'next-seo';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
@@ -17,6 +18,7 @@ export default class MyDocument extends Document {
           <link rel="icon" sizes="16x16" href={`${faviconPath}/favicon.ico`} />
           <link rel="manifest" href={`${faviconPath}/site.webmanifest`} />
           <meta name="theme-color" content="#000000" key="themeColor" />
+          <NextSeo title="保育をもっと自由に - Hoiku Picks" description="保育Picksは「その日」「その時間」の保育士不足を無くす。1日単位の採用から繋がる保育士採用マッチングアプリです。最短1時間から働けます。ご希望であればその保育園で長期雇用も可能です！ short description goes here." />
         </Head>
         <body>
           <Main />
