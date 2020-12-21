@@ -2,6 +2,9 @@
   padding: 10% 30px;
   background-color: #f2a93b;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer a {
   color: #ffedd0;
@@ -18,9 +21,18 @@
   border-top: 5px solid #fff;
   border-bottom: 5px solid #fff;
   padding: 10% 0;
+  width: 50%;
+  transition: 0.5s;
+}
+.footerContent:hover {
+  color: #fff;
+  border: 10px solid #fff;
+  width: 100%;
+  border-radius: 30px;
 }
 .footerContent h1 {
   font-size: 2.5rem;
+  margin-bottom: 5%;
 }
 
 .footerContent img {
