@@ -309,8 +309,9 @@ nav {
   transition: var(--transition);
   cursor: pointer;
   margin-right: 5%;
+  transition: 0.3s;
 }
-.navToggle:hover {
+.navToggle:active {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
