@@ -28,3 +28,29 @@
   height: 100px;
   margin-bottom: 5%;
 }
+
+@media (max-width: 1000px) {
+  .footer a {
+    font-size: 1rem;
+  }
+  .footerContent h1 {
+    font-size: 1.85rem;
+  }
+
+  .footerContent img {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .footerContent h1 {
+    font-size: 1.5rem;
+  }
+
+  .footerContent img {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5%;
+  }
+}

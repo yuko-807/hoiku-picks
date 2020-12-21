@@ -1,5 +1,6 @@
 import styles from './index.module.css'
 import Link from 'next/link'
+// import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 
 export function Footer(): JSX.Element{
@@ -17,6 +18,9 @@ export function Footer(): JSX.Element{
           <li><Link href="/others/team"><a>利用規約</a></Link></li>
         </ul>
       </div>
+      {/* <div className={styles.info}>
+        <FaTwitter/>
+      </div> */}
     </footer>
   )
 }
