@@ -17,7 +17,7 @@
   border-bottom: 3px solid #f2a93b;
 }
 .pointContents {
-  padding: 5% 0px;
+  padding: 10px 0px;
   text-align: center;
   display: grid;
   gap: 26px;
@@ -68,7 +68,7 @@
     height: 250px;
   }
   .point {
-    padding: 5% 10%;
+    padding: 10px 10%;
   }
 
   .point h2 {
@@ -80,7 +80,7 @@
   }
   .point p {
     font-size: 0.85rem;
-    padding: 5% 0;
+    padding: 10px 0;
   }
 }
 
@@ -114,7 +114,7 @@
     color: #f2a93b;
   }
   .point img {
-    width: 200px;
-    height: 250px;
+    width: 180px;
+    height: 230px;
   }
 }

@@ -312,7 +312,6 @@ nav {
 }
 .navToggle:hover {
   color: var(--clr-primary-1);
-  transform: rotate(90deg);
 }
 .logo {
   height: 40px;
