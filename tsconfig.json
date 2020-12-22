@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/slidebar/index.js", "components/slidebar/index.js", "components/slidebar/Sidebar.js", "pages/index.tsx"  ],
+, "components/slidebar/index.js", "components/slidebar/index.js", "components/slidebar/Sidebar.js", "pages/client.tsx"  ],
   "exclude": [
     "node_modules"
   ]
