@@ -46,7 +46,7 @@
 @media (max-width: 750px) {
   /* メインコンテンツのレスポンシブデザイン */
   .mainContentText h1 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
   .mainContentText {
     padding: 10% 0;
@@ -61,6 +61,6 @@
     height: 40px;
   }
   .logo {
-    width: 140px;
+    width: 130px;
   }
 }
