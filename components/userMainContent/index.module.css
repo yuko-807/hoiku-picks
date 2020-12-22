@@ -28,7 +28,9 @@
   margin-top: 5%;
   padding-left: 5%;
 }
-
+.logo {
+  width: 200px;
+}
 /* レスポンシブデザイン */
 @media (min-width: 1021px) {
   .mainContent {
@@ -48,5 +50,8 @@
   .appLogo {
     width: 120px;
     height: 40px;
+  }
+  .logo {
+    width: 140px;
   }
 }
