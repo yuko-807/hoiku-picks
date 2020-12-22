@@ -74,7 +74,7 @@
   }
 
   .workImages {
-    grid-template-columns: repeat(3, minmax(100%, 1fr));
+    grid-template-columns: repeat(3, minmax(90%, 1fr));
     overflow: scroll;
     padding: 5% 0;
   }
