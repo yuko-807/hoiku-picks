@@ -76,11 +76,11 @@
 }
 @media (max-width: 500px) {
   .howToWorkTitleSub h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .howToWorkTitleSub h3 {
     padding: 10px 20px;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
