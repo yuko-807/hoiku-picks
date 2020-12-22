@@ -8,7 +8,6 @@ export function Point():JSX.Element{
         <h1>保育Picksの3つのポイント</h1>
       </div>
       <div className={styles.pointContent}>
-
         {points.map((point) => {
         const { id, title, image, sub, text } = point;
         return (
