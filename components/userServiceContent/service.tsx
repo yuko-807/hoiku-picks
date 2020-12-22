@@ -3,7 +3,7 @@ import styles from './index.module.css'
 export function Service(): JSX.Element{
   return(
     <div className={styles.serviceContents}>
-      <h1 className={styles.contentTitle}>あなたにマッチした保育園見つかります！</h1>
+      <h1 className={styles.contentTitle}>保育Picksってどんなサービス??</h1>
       <div className={styles.serviceContent}>
         <div className={styles.serviceContentText}>
           <img
