@@ -7,7 +7,7 @@ export function Main(): JSX.Element{
       <div className={styles.mainContent}>
         <div className={styles.mainContentText}>
           <h1>
-            保育園で働くなら<br/><img className={styles.logo} src="/img/hoiku-logo.png" alt="logo"/>
+            保育園で働くなら!<br/><img className={styles.logo} src="/img/hoiku-logo.png" alt="logo"/>
             {/* スキマ時間で自分に合った<br/>保育園で働ける<br/>保育園マッチングアプリ */}
             {/* 単発・長期で働ける！<br />保育士専用<br />お仕事マッチングアプリ */}
           </h1>
@@ -25,7 +25,7 @@ export function Main(): JSX.Element{
           <Link href="/others/sorry">
             <a>
               <img
-              className={styles.appLogo}
+              className={styles.androidLogo}
               src="/img/android.png"
               alt="android"
               />
