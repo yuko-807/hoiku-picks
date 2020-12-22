@@ -15,7 +15,7 @@ export function Banner(): JSX.Element{
             src="/img/header-logo.svg"
             alt="logo"
           />
-          <h2 className={styles.serviceTitle}>その日だけでも<br />長期でも働ける</h2>
+          <h2 className={styles.serviceTitle}>スキマ時間で自分に<br />合った保育園で働ける</h2>
           <div className={styles.bannerApp}>
             {/* styles.appContents  */}
             <Link href="/others/sorry">
