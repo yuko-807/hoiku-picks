@@ -91,4 +91,7 @@
     font-weight: 600;
     font-size: 0.85rem;
   }
+  .workImage {
+    padding: 3px 10px;
+  }
 }
