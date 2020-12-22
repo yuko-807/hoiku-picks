@@ -15,6 +15,11 @@ export function Footer(): JSX.Element{
           <li><Link href="/others/conect"><a>お問い合わせ</a></Link></li>
           <li><Link href="/others/team"><a>利用規約</a></Link></li>
         </ul>
+        <div className={styles.socialIcons}>
+          <Link href="#"><a><img src="" alt=""/></a></Link>
+          <Link href="#"><a></a></Link>
+          <Link href="#"><a></a></Link>
+        </div>
       </div>
       <div className="ARR">
         <small>©Gouth, Inc. All right reserved.</small>
