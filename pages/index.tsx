@@ -1,27 +1,23 @@
 import { Layout } from '../components/layout';
-import Main from '../components/mainContent/main'
-import Task from '../components/taskContent/task'
-import Point from '../components/pointContent/point'
-import How from '../components/howToContent/how'
-import Fee from '../components/feeContent/fee'
-import Job from '../components/jobContent/job'
-import Staff from '../components/staffContent/staff'
-import Banner from '../components/bannerContent/banner'
+import { Main } from '../components/userMainContent/main'
+import { Service } from '../components/userServiceContent/service'
+import { Point } from '../components/userPointContent/point'
+import { Work } from '../components/userWorkContent/work'
+import { How } from '../components/userHowContent/how'
+import { Banner } from '../components/userBannerContent/banner'
 import Footer from '../components/footerContent/footer'
 
-export default function Home(): JSX.Element {
-  return (
+export default function User():JSX.Element{
+  return(
     <>
       <Layout/>
       <Main/>
-      <Task/>
+      <Service/>
       <Point/>
+      <Work/>
       <How/>
-      <Fee/>
-      <Job/>
-      <Staff/>
       <Banner/>
       <Footer/>
     </>
   );
-}
+};
