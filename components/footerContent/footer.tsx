@@ -15,11 +15,11 @@ export function Footer(): JSX.Element{
           <li><Link href="/others/conect"><a>お問い合わせ</a></Link></li>
           <li><Link href="/others/team"><a>利用規約</a></Link></li>
         </ul>
-        {/* <div className={styles.socialIcons}>
-          <Link href="#"><a><img src="" alt=""/></a></Link>
-          <Link href="#"><a></a></Link>
-          <Link href="#"><a></a></Link>
-        </div> */}
+        <div className={styles.socialIcons}>
+          <Link href="https://twitter.com/hoikupicksGouth"><a><img src="/favicon_io/twitter.png" alt=""/></a></Link>
+          <Link href="https://instagram.com/hoikupicks_gouth?igshid=7izgago2xzf6"><a><img  src="/favicon_io/instagram.png" alt=""/></a></Link>
+          <Link href="https://note.com/hoikupicks"><a><img  src="/favicon_io/Bitmap.png" alt=""/></a></Link>
+        </div>
       </div>
       <div className="ARR">
         <small>©Gouth, Inc. All right reserved.</small>
