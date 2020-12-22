@@ -9,6 +9,14 @@
   text-align: center;
   padding-bottom: 5%;
 }
+.bannerContents {
+  width: 100%;
+  max-height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  border: 3px solid #ffc363;
+  border-radius: 20px;
+}
 .bannerContent {
   max-width: 1000px;
   padding: 5%;
@@ -18,13 +26,6 @@
 }
 .bannerContent h1 {
   margin-top: 30px;
-}
-.bannerContents {
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  border: 3px solid #ffc363;
-  border-radius: 20px;
 }
 
 .bannerLogo {
@@ -83,21 +84,6 @@
 }
 
 @media (max-width: 750px) {
-  .bannerContent {
-    max-width: 1000px;
-    padding: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .bannerContents {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid #ffc363;
-    border-radius: 20px;
-  }
   .bannerLogo {
     display: inline-block;
   }
