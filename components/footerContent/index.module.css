@@ -39,6 +39,10 @@
 }
 .socialIcons a {
   margin-left: 100px;
+  opacity: 0.8;
+}
+.socialIcons a:hover {
+  opacity: 1;
 }
 .socialIcons img {
   width: 50px;
@@ -68,9 +72,6 @@
     transition: 0.5s;
   }
 
-  .socialIcons {
-    margin-left: 0px;
-  }
   .socialIcons a {
     margin-left: 20px;
   }
