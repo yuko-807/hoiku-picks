@@ -84,9 +84,9 @@
   }
   .pointContent {
     gap: 15px;
-    grid-template-columns: repeat(3, minmax(90%, 1fr));
+    grid-template-columns: repeat(1, minmax(90%, 1fr));
     overflow: scroll;
-    padding: 5% 0;
+    padding: 5% 30px;
   }
   .pointImage h2 {
     color: #f2a93b;

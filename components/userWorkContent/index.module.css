@@ -75,7 +75,7 @@
 
   .workImages {
     gap: 15px;
-    grid-template-columns: repeat(3, minmax(90%, 1fr));
+    grid-template-columns: repeat(3, minmax(70%, 1fr));
     overflow: scroll;
     padding: 5% 0;
   }
