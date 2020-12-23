@@ -24,7 +24,7 @@ export const points = [
     id: 4,
     title: 'POINT4',
     image: '/img/undraw_travel_together_re_kjf2.svg',
-    sub: '最短1分で保育士ワーカーとマッチング',
+    sub: '最短1分でワーカーとマッチング',
     text: '募集後、すぐに保育士ワーカーのもとに情報公開されるのでマッチングもスピーディ。',
   },
   
