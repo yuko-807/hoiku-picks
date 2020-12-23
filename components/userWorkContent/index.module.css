@@ -89,15 +89,14 @@
   }
 
   .workImage h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding-bottom: 5px;
   }
   .workImage p {
     letter-spacing: 0px;
-    font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
   .workImage {
-    padding: 0px 30px;
+    padding: 0px 10px;
   }
 }
