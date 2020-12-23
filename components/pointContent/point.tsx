@@ -4,7 +4,7 @@ import { points } from './data';
 export function Point():JSX.Element{
   return(
     <div className={styles.points}>
-      <h1 className={styles.pointsTitle}>POINT</h1>
+      {/* <h1 className={styles.pointsTitle}>POINT</h1> */}
       <h1 className={styles.pointTitle}>
         保育Picksの<span>4つのポイント</span>!
       </h1>
