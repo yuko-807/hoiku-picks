@@ -4,12 +4,12 @@ export const links = [
   {
     id: 1,
     url: '/',
-    text: 'ユーザーの方はこちら',
+    text: '事業者の方はこちら',
   },
   {
     id: 2,
-    url: '/client',
-    text: '事業者の方はこちら',
+    url: '/others/user',
+    text: 'ユーザーの方はこちら',
   },
   {
     id: 3,
