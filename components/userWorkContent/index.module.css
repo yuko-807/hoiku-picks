@@ -2,7 +2,7 @@
 
 .workTitle h1 {
   text-align: center;
-  padding: 5% 0px;
+  padding: 40px 0px;
   letter-spacing: 3px;
   color: #fff;
   font-weight: 900;
@@ -10,7 +10,7 @@
 }
 
 .workImages {
-  padding: 5% 30px;
+  padding: 40px 30px;
   display: grid;
   justify-items: center;
   gap: 26px;
@@ -19,7 +19,7 @@
 .workImage {
   background-color: #ffedd0;
   border-radius: 20px;
-  padding: 5% 30px;
+  padding: 10px 30px;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -27,7 +27,7 @@
 }
 .workImage img {
   width: 100%;
-  height: 300px;
+  height: 250px;
   padding-bottom: 5%;
 }
 .workImage h2 {
