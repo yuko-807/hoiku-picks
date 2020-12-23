@@ -1,5 +1,5 @@
 .banner {
-  padding: 5% 30px;
+  padding: 40px 30px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -7,10 +7,10 @@
 }
 .bannerTitle {
   text-align: center;
-  padding-bottom: 5%;
+  padding-bottom: 40px;
 }
 .bannerContents {
-  width: 100%;
+  width: 80%;
   max-height: 500px;
   display: flex;
   justify-content: space-evenly;
@@ -122,5 +122,8 @@
   }
   .rightLink {
     margin-left: 5px;
+  }
+  .bannerContent {
+    align-items: center;
   }
 }
