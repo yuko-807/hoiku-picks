@@ -5,8 +5,12 @@
 .staffContent {
   text-align: center;
   background-color: #f2a93b;
-  padding: 5% 0;
+  padding: 40px 0;
   letter-spacing: 2px;
+}
+.arrowIcon {
+  padding-top: 40px;
+  width: 50px;
 }
 .staffBackground {
   background-color: #ffedd0;
@@ -39,19 +43,14 @@
   color: #3e3e3e;
 }
 .staffImg {
-  width: 100%;
-  max-width: 300px;
+  max-width: 250px;
 }
 .staffImagesContent {
   display: grid;
   gap: 26px;
   grid-template-columns: repeat(2, minmax(300px, 1fr));
-  padding: 5% 0px;
+  padding: 40px 0px;
   text-align: center;
-}
-.arrowIcon {
-  padding-top: 10%;
-  width: 50px;
 }
 
 /* レスポンシブデザイン */
