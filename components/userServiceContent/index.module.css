@@ -1,11 +1,9 @@
-.contentTitle {
-  text-align: center;
-}
 .serviceContents h1 {
   padding: 5% 0px;
   background-color: #f2a93b;
   letter-spacing: 3px;
   color: #fff;
+  text-align: center;
 }
 .serviceContent {
   padding: 0 30px;
