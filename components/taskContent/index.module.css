@@ -1,10 +1,10 @@
 .taskContent {
   text-align: center;
-  padding: 5% 30px;
+  padding: 40px 30px;
   background-color: #f2a93b;
 }
 .taskTitle {
-  padding-bottom: 10%;
+  padding-bottom: 40px;
 }
 .taskImages {
   padding: 5% 0;
@@ -44,7 +44,7 @@
   transform: rotate(360deg);
 }
 .taskFooter {
-  padding-top: 10%;
+  padding-top: 40px;
 }
 .taskFooter span {
   padding: 0 10px;
@@ -52,7 +52,7 @@
   border-bottom: 5px solid #fff;
 }
 .arrowIcon {
-  padding-top: 10%;
+  padding-top: 40px;
   width: 50px;
 }
 
