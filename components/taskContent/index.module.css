@@ -15,12 +15,8 @@
   justify-items: center;
   gap: 26px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  transition: 0.5s;
 }
-.taskImages:hover {
-  border-top: 50px solid #fff;
-  border-bottom: 50px solid #fff;
-}
+
 .taskImage {
   position: relative;
   color: #f2a93b;
@@ -31,18 +27,17 @@
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  transition: 1s;
 }
 .taskImage h1 {
   position: absolute;
   top: 100px;
   left: 20px;
 }
-.taskImage:hover {
+/* .taskImage:hover {
   color: #3e3e3e;
   background-color: #f2a93b;
   transform: rotate(360deg);
-}
+} */
 .taskFooter {
   padding-top: 40px;
 }

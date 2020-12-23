@@ -57,9 +57,9 @@
   .pointContents {
     padding-top: 0px;
     gap: 15px;
-    grid-template-columns: repeat(4, minmax(80%, 1fr));
+    grid-template-columns: repeat(4, minmax(70%, 1fr));
     overflow: scroll;
-    padding: 5% 0px;
+    padding: 10px 0px;
   }
   .pointsTitle {
     padding: 10% 0;
@@ -74,7 +74,7 @@
     height: 250px;
   }
   .point {
-    padding: 10px 10%;
+    padding: 10px;
   }
 
   .point h2 {
