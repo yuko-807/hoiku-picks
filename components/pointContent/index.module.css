@@ -7,7 +7,7 @@
     transparent 0,
     transparent 15px
   );
-  padding: 5% 30px;
+  padding: 40px 30px;
   text-align: center;
 }
 .points h1 {
@@ -17,7 +17,7 @@
   border-bottom: 3px solid #f2a93b;
 }
 .pointContents {
-  padding: 10px 0px;
+  padding-top: 40px;
   text-align: center;
   display: grid;
   gap: 26px;
@@ -25,7 +25,7 @@
 }
 .point {
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 0px 20px;
   border-radius: 30px;
   border: 3px solid #ffedd0;
 }
@@ -51,9 +51,15 @@
 
 @media (max-width: 690px) {
   /* ポイントコンテンツ */
-
+  .points {
+    padding: 40px 0px;
+  }
   .pointContents {
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    padding-top: 0px;
+    gap: 15px;
+    grid-template-columns: repeat(4, minmax(80%, 1fr));
+    overflow: scroll;
+    padding: 5% 0px;
   }
   .pointsTitle {
     padding: 10% 0;
@@ -86,9 +92,6 @@
 
 @media (max-width: 370px) {
   /* ポイントコンテンツ */
-  .points {
-    padding: 5% 10px;
-  }
   .pointsTitle {
     padding: 10% 0;
     font-size: 1rem;
@@ -96,13 +99,6 @@
   .pointTitle {
     padding-bottom: 5%;
     font-size: 1rem;
-  }
-  .pointContents {
-    padding: 5% 0px;
-    text-align: center;
-    display: grid;
-    gap: 26px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .point {
     background-color: #fff;
