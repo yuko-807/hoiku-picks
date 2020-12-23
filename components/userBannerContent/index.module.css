@@ -1,13 +1,13 @@
 .bannerTitle h1 {
   text-align: center;
-  padding: 5% 0px;
+  padding: 40px 0px;
   letter-spacing: 3px;
   color: #f2a93b;
   font-weight: 900;
 }
 .bannerContent {
   border: 3px solid #f2a93b;
-  margin: 10%;
+  margin: 40px 15%;
   border-radius: 30px;
   padding: 0 30px;
   display: flex;
@@ -39,7 +39,7 @@
   padding-left: 5%;
 }
 .serviceContentImage img {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .appContents {
