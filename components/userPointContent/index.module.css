@@ -78,6 +78,9 @@
 @media (max-width: 870px) {
   /* ポイントコンテンツのレスポンシブデザイン */
   .pointTitle {
+    padding: 30px 0px;
+  }
+  .pointTitle {
     letter-spacing: 0px;
     font-size: 0.6rem;
     letter-spacing: 1px;
