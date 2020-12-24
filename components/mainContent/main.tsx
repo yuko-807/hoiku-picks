@@ -7,7 +7,7 @@ export function mainContent():JSX.Element{
     <div className={styles.mainContents}>
       <div className={styles.mainContent}>
         <div className={styles.mainText}>
-          <h1>「その日」「その時間」<br />の保育士不足を無くす。</h1>
+          <h1><span>「その日」「その時間」</span><br />の保育士不足を無くす。</h1>
           <p>1日単位の採用から繋がる<br/>保育士採用マッチングアプリ</p>
         </div>
         <div className={styles.mainLinks}>
