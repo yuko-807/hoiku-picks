@@ -100,6 +100,9 @@
 @media (max-width: 500px) {
   /* 雇用料金のレスポンシブデザイン */
 
+  .feeTitle {
+    padding: 30px 0;
+  }
   .feeTitle h1 {
     font-size: 1.25rem;
   }

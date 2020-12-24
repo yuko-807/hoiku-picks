@@ -63,6 +63,11 @@
 
 @media (max-width: 500px) {
   /* 実際のユーザーのコンテンツ */
+
+  .staffContent {
+    padding: 30px 0;
+    letter-spacing: 0px;
+  }
   .contentTitle {
     font-size: 1.25rem;
   }

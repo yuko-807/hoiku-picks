@@ -111,8 +111,14 @@
 
 @media (max-width: 690px) {
   /* バナーコンテンツ */
+  .banner {
+    padding: 40px 10px;
+  }
   .bannerTitle h1 {
     font-size: 1.25rem;
+  }
+  .bannerLinks a {
+    margin-top: 0px;
   }
   .bannerLinks a {
     font-size: 0.75rem;
