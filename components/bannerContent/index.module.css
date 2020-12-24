@@ -4,6 +4,7 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
+  text-align: center;
 }
 .bannerTitle {
   text-align: center;
@@ -111,8 +112,17 @@
 
 @media (max-width: 690px) {
   /* バナーコンテンツ */
+  .bannerContent h1 {
+    margin-top: 10px;
+  }
+  .bannerContent span {
+    margin-left: -10px;
+  }
   .banner {
     padding: 40px 10px;
+  }
+  .bannerContents {
+    width: 90%;
   }
   .bannerTitle h1 {
     font-size: 1.25rem;

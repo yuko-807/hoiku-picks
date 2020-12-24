@@ -15,7 +15,7 @@ export function Banner(): JSX.Element{
             src="img/header-logo.svg"
             alt="logo"
           />
-          <h1>「その日」「その時間」 <br />の保育士不足を無くす。</h1>
+          <h1><span>｢その日｣｢その時間｣</span> <br />の保育士不足を無くす。</h1>
           <img
             className={styles.screanShotResponsive}
             src="img/web-screan.jpeg"
