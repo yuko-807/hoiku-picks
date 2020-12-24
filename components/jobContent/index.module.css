@@ -6,10 +6,6 @@
 .feeTitle h1 {
   letter-spacing: 2px;
 }
-.arrowIcon {
-  padding-top: 40px;
-  width: 50px;
-}
 .feeContents {
   padding: 5%;
 }
@@ -144,10 +140,5 @@
   }
   .jobText span {
     font-size: 1rem;
-  }
-
-  .arrowIcon {
-    padding: 5% 0;
-    width: 30px;
   }
 }

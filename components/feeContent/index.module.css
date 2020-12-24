@@ -3,10 +3,6 @@
   background-color: #f2a93b;
   padding: 40px 0;
 }
-.arrowIcon {
-  padding-top: 40px;
-  width: 50px;
-}
 .feeTitle h1 {
   letter-spacing: 2px;
 }
@@ -111,10 +107,5 @@
   }
   .feeForExampleText p {
     font-size: 0.85rem;
-  }
-
-  .arrowIcon {
-    padding: 5% 0;
-    width: 30px;
   }
 }

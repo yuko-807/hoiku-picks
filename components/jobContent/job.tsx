@@ -5,7 +5,6 @@ export function Job(): JSX.Element{
     <>
     <div className={styles.feeTitle}>
       <h1 className={styles.contentTitle}>保育Picksの料金形態</h1>
-      <img className={styles.arrowIcon} src="img/down-arrow.svg" alt="arrow" />
     </div>
 
     <div className={styles.jobContents}>
