@@ -12,7 +12,7 @@ export function Banner(): JSX.Element{
         <div className={styles.serviceContentText}>
           <img
             className={styles.serviceLogo}
-            src="/img/header-logo.svg"
+            src="/img/logo.png"
             alt="logo"
           />
           <h2 className={styles.serviceTitle}>スキマ時間で自分に<br />合った保育園で働ける</h2>

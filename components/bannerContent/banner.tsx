@@ -12,13 +12,13 @@ export function Banner(): JSX.Element{
           <img
             className={styles.bannerLogo}
             // logo
-            src="img/header-logo.svg"
+            src="/img/logo.png"
             alt="logo"
           />
           <h1><span>｢その日｣｢その時間｣</span> <br />の保育士不足を無くす。</h1>
           <img
             className={styles.screanShotResponsive}
-            src="img/web-screan.jpeg"
+            src="/img/web-screan.jpeg"
             alt="SS"
           />
           <div className={styles.bannerLinks}>

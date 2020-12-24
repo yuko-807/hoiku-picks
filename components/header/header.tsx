@@ -22,7 +22,7 @@ export function Header(): JSX.Element{
       <div className="navCenter">
         <div className="navHeader">
           <Link href="/">
-            <a><Image src="/img/header-logo.svg" width={180} height={45} priority /></a>
+            <a><Image src="/img/logo.png" width={180} height={38} priority /></a>
           </Link>
           <button
             className="navToggle"
