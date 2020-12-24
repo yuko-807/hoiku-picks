@@ -29,6 +29,7 @@
   -webkit-border-radius: 50%;
 }
 .taskImage h1 {
+  color: #3e3e3e;
   position: absolute;
   top: 100px;
   left: 20px;
@@ -115,10 +116,10 @@
     transition: 1s;
   }
   .taskImage h1 {
-    font-size: 0.75rem;
+    font-size: 1rem;
     position: absolute;
     top: 55px;
-    left: 25px;
+    left: 12px;
   }
   .taskImages {
     grid-template-columns: repeat(2, minmax(150px, 1fr));
