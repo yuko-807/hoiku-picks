@@ -24,7 +24,6 @@ export function taskContent():JSX.Element{
         <h1 className={styles.taskFooter}>
           そのお悩み<span>保育Picks</span>が解決します！
         </h1>
-        <img className={styles.arrowIcon} src="/img/down-arrow.svg" alt="arrow"  />
       </div>
     </>
   );

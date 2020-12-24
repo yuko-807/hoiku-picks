@@ -8,10 +8,6 @@
   padding: 40px 0;
   letter-spacing: 2px;
 }
-.arrowIcon {
-  padding-top: 40px;
-  width: 50px;
-}
 .staffBackground {
   background-color: #ffedd0;
   background-image: repeating-linear-gradient(
@@ -78,9 +74,5 @@
   }
   .staffImages p {
     font-size: 0.85rem;
-  }
-  .arrowIcon {
-    padding: 5% 0;
-    width: 30px;
   }
 }
