@@ -5,7 +5,7 @@ export function Staff(): JSX.Element{
   return(
     <div className={styles.staffContents}>
       <div className={styles.staffContent}>
-        <h1 className={styles.contentTitle}>実際のユーザーの声を聞きました！</h1>
+        <h1 className={styles.contentTitle}>実際のユーザーの声</h1>
       </div>
       <div className={styles.staffBackground}>
         <div className={styles.staffImagesContent}>
