@@ -4,7 +4,7 @@ export function Job(): JSX.Element{
   return(
     <>
     <div className={styles.feeTitle}>
-      <h1 className={styles.contentTitle}>保育Picksの料金形態</h1>
+      <h1 className={styles.contentTitle}>長期採用の場合</h1>
     </div>
 
     <div className={styles.jobContents}>
