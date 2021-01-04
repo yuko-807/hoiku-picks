@@ -93,7 +93,6 @@ body {
     "Helvetica Neue", Arial, sans-serif;
 
   width: 100%;
-  font-smoothing: antialiased;
   font-variant-numeric: tabular-nums;
   /* safari hover対策 */
   -webkit-font-smoothing: antialiased;
