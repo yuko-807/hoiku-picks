@@ -105,3 +105,22 @@
     font-size: 0.85rem;
   }
 }
+
+@media (max-width: 500px) {
+  /* ポイントコンテンツのレスポンシブデザイン */
+  .pointImage h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .pointImage img {
+    height: 150px;
+  }
+  .pointImage h1 {
+    font-size: 1.25rem;
+    letter-spacing: 0px;
+  }
+  .pointImage p {
+    letter-spacing: 0px;
+    font-size: 1rem;
+  }
+}
