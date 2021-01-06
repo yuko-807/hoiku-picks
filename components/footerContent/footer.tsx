@@ -1,5 +1,7 @@
 import styles from './index.module.css'
 import Link from 'next/link'
+import {TiSocialTwitter,TiSocialInstagram} from 'react-icons/ti'
+import {RiStickyNoteLine} from 'react-icons/ri'
 // import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 
@@ -19,6 +21,9 @@ export function Footer(): JSX.Element{
           <Link href="https://twitter.com/hoikupicksGouth"><a><img src="/favicon_io/twitter.png" alt=""/></a></Link>
           <Link href="https://instagram.com/hoikupicks_gouth?igshid=7izgago2xzf6"><a><img  src="/favicon_io/instagram.png" alt=""/></a></Link>
           <Link href="https://note.com/hoikupicks"><a><img  src="/favicon_io/Bitmap.png" alt=""/></a></Link>
+          {/* <Link href="https://twitter.com/hoikupicksGouth"><a><p><TiSocialTwitter/></p></a></Link>
+          <Link href="https://instagram.com/hoikupicks_gouth?igshid=7izgago2xzf6"><a><p><TiSocialInstagram/></p></a></Link>
+          <Link href="https://note.com/hoikupicks"><a><p><RiStickyNoteLine/></p></a></Link> */}
         </div>
       </div>
       <div className="ARR">

@@ -48,6 +48,9 @@
 @media (max-width: 690px) {
   /* メインコンテンツ */
   .mainContent {
+    padding: 70px 30px;
+  }
+  .mainContent {
     padding-left: 20px;
   }
   .mainText span {

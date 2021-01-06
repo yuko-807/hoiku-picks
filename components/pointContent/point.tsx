@@ -6,7 +6,7 @@ export function Point():JSX.Element{
     <div className={styles.points}>
       {/* <h1 className={styles.pointsTitle}>POINT</h1> */}
       <h1 className={styles.pointTitle}>
-        保育Picksの<span>4つのポイント</span>!
+        保育Picksの4つのポイント!
       </h1>
       <div className={styles.pointContents}>
   {points.map((pointy) => {
