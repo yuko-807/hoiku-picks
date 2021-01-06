@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import styles from './index.module.css'
 import { FaBars } from 'react-icons/fa';
 import { links, social } from './data';
 import Link from 'next/link'
@@ -22,7 +23,7 @@ export function Header(): JSX.Element{
       <div className="navCenter">
         <div className="navHeader">
           <Link href="/">
-            <a><Image src="/img/logo.png" width={200} height={38} priority /></a>
+            <a><img className={styles.logoImage} src="/img/logo.png" alt=""/></a>
           </Link>
           <button
             className="navToggle"
