@@ -107,7 +107,7 @@
 }
 
 @media (max-width: 500px) {
-  /* ポイントコンテンツのレスポンシブデザイン */
+  /* ポイントコンテンツのレスポンシブデザインです */
   .pointImage h2 {
     font-size: 1.25rem;
     margin-bottom: 10px;
