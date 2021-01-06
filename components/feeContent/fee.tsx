@@ -4,7 +4,7 @@ export function Fee(): JSX.Element{
   return(
     <>
     <div className={styles.feeTitle}>
-      <h1 className={styles.contentTitle}>サービス手数料</h1>
+      <h1>サービス手数料</h1>
     </div>
 
     <div className={styles.feeContents}>

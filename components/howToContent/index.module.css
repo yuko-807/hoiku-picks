@@ -38,10 +38,20 @@
   }
 }
 
+@media (max-width: 500px) {
+  .howToContents h1 {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 370px) {
   /* 使い方のコンテンツ */
   .howToContents {
     padding: 5% 10px;
+  }
+  .howToContents h1 {
+    font-size: 2rem;
+    letter-spacing: 3px;
   }
   .howToContent {
     padding: 5% 0;
