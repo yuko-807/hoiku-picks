@@ -27,7 +27,7 @@ export function Footer(): JSX.Element{
         </div>
       </div>
       <div className="ARR">
-        <small>©Gouth, Inc. All right reserved.</small>
+        <small>©保育Picks, Inc. All right reserved.</small>
       </div>
     </footer>
   )

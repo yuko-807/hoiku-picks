@@ -11,7 +11,7 @@ export function Company(): JSX.Element{
       <div className={styles.companyContent}>
         <div className={styles.card}>
           <label>会社名</label>
-          <p>株式会社Gouth</p>
+          <p>保育Picks株式会社</p>
         </div>
         <div className={styles.card}>
           <label className={styles.CEO}>代表</label>
