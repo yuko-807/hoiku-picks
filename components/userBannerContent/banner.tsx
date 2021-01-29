@@ -1,8 +1,8 @@
-import styles from './index.module.css'
-import Link from 'next/link'
+import styles from "./index.module.css";
+import Link from "next/link";
 
-export function Banner(): JSX.Element{
-  return(
+export function Banner(): JSX.Element {
+  return (
     <div className={styles.bannerContents}>
       <div className={styles.bannerTitle}>
         <h1>まずは無料ダウンロード！</h1>
@@ -10,31 +10,31 @@ export function Banner(): JSX.Element{
       <div className={styles.bannerContent}>
         {/* serviceContent */}
         <div className={styles.serviceContentText}>
-          <img
-            className={styles.serviceLogo}
-            src="/img/logo.png"
-            alt="logo"
-          />
-          <h2 className={styles.serviceTitle}>スキマ時間で自分に<br />合った保育園で働ける</h2>
+          <img className={styles.serviceLogo} src="/img/logo.png" alt="logo" />
+          <h2 className={styles.serviceTitle}>
+            スキマ時間で自分に
+            <br />
+            合った保育園で働ける
+          </h2>
           <div className={styles.bannerApp}>
             {/* styles.appContents  */}
-            <Link href="/others/sorry">
+            <Link href="#">
               <a>
                 <img
-                className={styles.appLogo}
-                src="/img/app_store.png"
-                alt="apple"
+                  className={styles.appLogo}
+                  src="/img/app_store.png"
+                  alt="apple"
                 />
-                </a>
+              </a>
             </Link>
-            <Link href="/others/sorry">
+            <Link href="#">
               <a>
                 <img
-                className={styles.appLogo}
-                src="/img/android.png"
-                alt="android"
+                  className={styles.appLogo}
+                  src="/img/android.png"
+                  alt="android"
                 />
-                </a>
+              </a>
             </Link>
           </div>
         </div>
@@ -43,6 +43,6 @@ export function Banner(): JSX.Element{
         </div>
       </div>
     </div>
-  )
+  );
 }
 export default Banner;
