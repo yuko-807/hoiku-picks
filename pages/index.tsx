@@ -6,10 +6,15 @@ import { Work } from '../components/userWorkContent/work'
 import { How } from '../components/userHowContent/how'
 import { Banner } from '../components/userBannerContent/banner'
 import Footer from '../components/footerContent/footer'
+import {Faq} from '../components/faqContent/faq'
+import react, {FC,useState} from 'react'
+import data from '../components/faqContent/data'
+import styled from 'styled-components'
 
-export default function User():JSX.Element{
+const User: FC = () =>{
+  const [faqs,setFaqs]=useState(data)
   return(
-    <>
+<>
       <Layout/>
       <Main/>
       <Service/>
@@ -17,7 +22,29 @@ export default function User():JSX.Element{
       <Work/>
       <How/>
       <Banner/>
+      <Wrapper>
+        <Title>
+          よくある質問
+        </Title>
+      </Wrapper>
+      {faqs.map((faq)=>{
+        return <Faq key={faq.id} {...faq} />
+      })}
       <Footer/>
     </>
-  );
-};
+  )
+}
+export default User;
+
+const Title = styled.h1`
+  font-size: 32px;
+  
+  text-align: center;
+  color:white;
+`;
+const Wrapper = styled.section`
+text-align:center;
+  padding: 2.5em;
+  margin:15px 0 100px 0;
+  background: #F2A93B;
+`;
